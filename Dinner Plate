@@ -1,0 +1,38 @@
+background(186, 145, 20); // wooden table
+fill(198, 153, 219);
+ellipse(200, 200, 350, 350); // plate
+fill(255, 255, 255);
+ellipse(200, 200, 300, 300); 
+
+//pizza
+fill(255, 196, 0);
+triangle(162, 87, 110, 160, 317, 202);
+strokeWeight(10);
+stroke(143, 128, 67);
+line(159, 87, 113, 160);
+strokeWeight(2);
+stroke(0, 0, 0);
+fill(148, 16, 16);
+ellipse(149, 148, 20, 20);
+ellipse(181, 134, 20, 20);
+ellipse(163, 116, 20, 20);
+ellipse(206, 143, 20, 20);
+ellipse(180, 160, 20, 20);
+ellipse(237, 161, 20, 20);
+ellipse(212, 163, 20, 20);
+ellipse(262, 177, 20, 20);
+
+//fries
+var gold = color(224, 217, 7);
+var tanC = color(245, 245, 179);
+fill (blendColor(gold, tanC, BURN));
+rect(150, 250, 112, 10, 5);
+rect(148, 229, 112, 10, 5);
+rect(150, 250, 112, 10, 10);
+rotate(15);
+rect(173, 191, 115, 10, 28);
+rotate(30);
+rect(217, 52, 115, 10, 28);
+rect(229, 31, 112, 10, 12);
+rotate(30);
+rect(251, -148, 101, 10, 5);
